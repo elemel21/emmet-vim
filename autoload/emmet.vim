@@ -1325,9 +1325,9 @@ let s:emmet_settings = {
 \                    ."<html lang=\"${lang}\">\n"
 \                    ."<head>\n"
 \                    ."\t<meta charset=\"${charset}\">\n"
-\                    ."\t<title></title>\n"
+\                    ."\t<title>|</title>\n"
 \                    ."</head>\n"
-\                    ."<body>\n\t${child}|\n</body>\n"
+\                    ."<body>\n\t${child}\n</body>\n"
 \                    ."</html>",
 \        },
 \        'default_attributes': {
@@ -1351,9 +1351,7 @@ let s:emmet_settings = {
 \            'meta:utf': [{'http-equiv': 'Content-Type'}, {'content': 'text/html;charset=UTF-8'}],
 \            'meta:win': [{'http-equiv': 'Content-Type'}, {'content': 'text/html;charset=Win-1251'}],
 \            'meta:compat': [{'http-equiv': 'X-UA-Compatible'}, {'content': 'IE=7'}],
-\            'style': {'type': 'text/css'},
-\            'script': {'type': 'text/javascript'},
-\            'script:src': [{'type': 'text/javascript'}, {'src': ''}],
+\            'script:src': {'src': ''},
 \            'img': [{'src': ''}, {'alt': ''}],
 \            'iframe': [{'src': ''}, {'frameborder': '0'}],
 \            'embed': [{'src': ''}, {'type': ''}],
