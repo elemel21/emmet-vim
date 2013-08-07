@@ -1,8 +1,12 @@
-# Emmet-vim
+# Fork of Emmet-vim
+
+Trying to make it more HTML5 compatible
 
 [emmet-vim](http://mattn.github.com/emmet-vim) is a vim plug-in
 which provides support for expanding abbreviations similar to
 [emmet](http://emmet.io/).
+
+## Changes so far
 
 ## Installation
 
@@ -52,58 +56,4 @@ Then type "\<c-y\>," (Ctrl + y + ','), you should see:
     	_
     </body>
     </html>
-
-[More Tutorials](https://raw.github.com/mattn/emmet-vim/master/TUTORIAL)
-
-
-## Enable in different mode
-
-If you don't want to enable emmet in all modes,
-you can use set these options in `vimrc`:
-
-    let g:user_emmet_mode='n'    "only enable normal mode functions.
-    let g:user_emmet_mode='inv'  "enable all functions, which is equal to
-    let g:user_emmet_mode='a'    "enable all function in all mode.
-
-## Project Authors
-
-[Yasuhiro Matsumoto](http://mattn.kaoriya.net/)
-
-## Links
-
-### Emmet official site:
-
-* <http://emmet.io/>
-
-### zen-coding official site:
-
-* <http://code.google.com/p/zen-coding/>
-
-### emmet.vim:
-
-* <http://mattn.github.com/emmet-vim>
-
-### development repository:
-
-* <https://github.com/mattn/emmet-vim>
-
-### my blog posts about zencoding-vim:
-
-* <http://mattn.kaoriya.net/software/vim/20100222103327.htm>
-
-* <http://mattn.kaoriya.net/software/vim/20100306021632.htm>
-
-### Japanese blog posts about zencoding-vim:
-
-* <http://d.hatena.ne.jp/idesaku/20100424/1272092255>
-
-* <http://d.hatena.ne.jp/griefworker/20110118/vim_zen_coding>
-
-* <http://d.hatena.ne.jp/sakurako_s/20110126/1295988873>
-
-* <http://looxu.blogspot.jp/2010/02/zencodingvimhtml.html>
-
-### A Chinese translation of the tutorial:
-
-* <http://www.zfanw.com/blog/zencoding-vim-tutorial-chinese.html>
 
