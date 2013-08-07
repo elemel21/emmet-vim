@@ -12,6 +12,7 @@ which provides support for expanding abbreviations similar to
 2. Removed attribute type="text/css" from `<style>` tag
 3. script:src - renders to `<script scr=""></script>`
 4. when rendering html:5 - cursor is located between `<title></title>` tags
+5. Removed closing slash from single tags - `<br>` instead of `<br />` etc.
 
 
 ## Quick Tutorial
