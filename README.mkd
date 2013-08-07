@@ -8,6 +8,11 @@ which provides support for expanding abbreviations similar to
 
 ## Changes so far
 
+1. Removed attribute type="text/javascript" from `<script>` tag
+2. Removed attribute type="text/css" from `<style>` tag
+3. script:src - renders to `<script scr=""></script>`
+4. when rendering html:5 - cursor is located between `<title></title>` tags
+
 ## Installation
 
 [Download zip file](http://www.vim.org/scripts/script.php?script_id=2981):
