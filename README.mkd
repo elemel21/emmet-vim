@@ -55,10 +55,10 @@ Then type "\<c-y\>," (Ctrl + y + ','), you should see:
     <html lang="en">
     <head>
     	<meta charset="UTF-8">
-    	<title></title>
+    	<title>_</title>
     </head>
     <body>
-    	_
+    	
     </body>
     </html>
 
