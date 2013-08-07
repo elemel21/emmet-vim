@@ -13,6 +13,30 @@ which provides support for expanding abbreviations similar to
 3. script:src - renders to `<script scr=""></script>`
 4. when rendering html:5 - cursor is located between `<title></title>` tags
 
+
+## Quick Tutorial
+
+Open or create a New File:
+
+    vim index.html
+
+Type ("\_" is the cursor position):
+
+    html:5_
+
+Then type "\<c-y\>," (Ctrl + y + ','), you should see:
+
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<title>_</title>
+    </head>
+    <body>
+    	
+    </body>
+    </html>
+
 ## Installation
 
 [Download zip file](http://www.vim.org/scripts/script.php?script_id=2981):
@@ -37,28 +61,4 @@ or:
     cp plugin/emmet.vim ~/.vim/plugin/
     cp autoload/emmet.vim ~/.vim/autoload/
     cp -a autoload/emmet ~/.vim/autoload/
-
-
-## Quick Tutorial
-
-Open or create a New File:
-
-    vim index.html
-
-Type ("\_" is the cursor position):
-
-    html:5_
-
-Then type "\<c-y\>," (Ctrl + y + ','), you should see:
-
-    <!DOCTYPE HTML>
-    <html lang="en">
-    <head>
-    	<meta charset="UTF-8">
-    	<title>_</title>
-    </head>
-    <body>
-    	
-    </body>
-    </html>
 
